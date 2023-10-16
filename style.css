@@ -23,3 +23,33 @@ header {
 	top: 40px;
 	left: 10px;
 }
+
+/* TITLE */
+
+.title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+.author {
+	font-size: large;
+}
+
+.author > a{
+	text-decoration: none;
+	color: rgb(78,160,255);;
+}
+
+.date {
+	font-size: smaller;
+}
+
+/* PICTURES */
+
+.caption {
+	font-size: smaller;
+}
