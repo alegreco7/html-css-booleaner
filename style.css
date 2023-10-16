@@ -53,3 +53,55 @@ h1 {
 .caption {
 	font-size: smaller;
 }
+
+/* ARTICLE */
+
+main {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.article {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+span {
+	background-color: yellow;
+}
+
+/* LIST */
+
+ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 30px; 
+}
+
+ul > li {
+	list-style: circle;
+}
+
+
+/* TABLE */
+
+table {
+	margin-bottom: 10px;
+	border-spacing: 0px;
+}
+
+thead {
+	background-color: rgb(32,169,229);
+	color: white;
+	font-weight: bold;
+}
+
+tbody > tr:nth-of-type(1), 
+tbody > tr:nth-of-type(3)
+{
+	background-color: rgb(177,229,242);
+}
+
+td {
+	min-width: 300px;
+}
